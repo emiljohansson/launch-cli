@@ -1,6 +1,6 @@
 {
   "name": "launch",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Search and launch apps from the command line.",
   "main": "index.js",
   "bin": {
