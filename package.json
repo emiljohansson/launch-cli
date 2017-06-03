@@ -1,0 +1,27 @@
+{
+  "name": "launch",
+  "version": "0.0.0",
+  "description": "Search and launch apps from the command line.",
+  "main": "index.js",
+  "bin": {
+    "launch": "cli.js"
+  },
+  "scripts": {
+    "test": "ava test/*",
+    "coverage": "nyc --reporter=lcov npm test"
+  },
+  "repository": {
+    "url": "x",
+    "type": "git"
+  },
+  "author": "Emil Johansson <emiljohansson.se@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "nyc": "^11.0.2"
+  },
+  "dependencies": {
+    "inquirer": "^3.0.6",
+    "minimist": "^1.2.0"
+  }
+}
